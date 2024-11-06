@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plotlist</title>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/splide.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="bg-image pb-5 m-0">
+    <nav class="navbar navbar-expand-md navbar-light py-3" aria-label="Navbar">
+      <div class="container-xl">
+        <img src="images/white-logo.png" alt="" class="text-light">
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link fw-normal me-xl-4 link-secondary px-3" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-normal me-xl-4 hover-1 px-3" href="#">CATEGORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-normal me-xl-4 hover-1 px-3" href="#">LISTING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-normal me-xl-4 hover-1 px-3" href="#">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <div>
+                <div class="bg-light bi-plus-circle-fill text-secondary rounded-2 px-3 py-1"> Add Your Listing</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr class="text-white pb-5" style="margin-top: -5px;">
+
+    <div class="text-center">
+      <div class="">
+        <div class="pt-5 text-light">
+          <div class="h5 pt-5">Over 36,500+ Active Listings</div>
+          <div class="h1 fw-bold pb-4">Find Nearby Places &amp; Things</div>
+        </div>
+      </div>
+    </div>
+    <form class="text-center">
+      <label for="area"></label>
+      <select name="area" id="area" class="py-3 px-5 rounded-2 btn btn-light">
+        <option selected>All Areas </option>
+        <option value="New Village">New Village</option>
+        <option value="Old Town">Old Town</option>
+        <option value="Modern City">Modern City</option>
+      </select>
+
+      <label for="location"></label>
+      <input type="text" id="location" name="location" placeholder="Enter location"
+        class="py-3 px-5 rounded-2 btn btn-light">
+
+      <label for="price"></label>
+      <select name="price" id="price" class="py-3 px-5 rounded-1 btn btn-light">
+        <option selected>Price Range </option>
+        <option value="$100 - $250">$100 - $250</option>
+        <option value="$250 - $500">$250 - $500</option>
+        <option value="$500 - $1000">$500 - $1,000</option>
+        <option value="$1000+">$1,000 or more</option>
+      </select>
+      <button type="submit" class="bi-search py-3 px-5 rounded-2 bg-secondary  btn btn-light"> Search Now</button>
+    </form>
+    <div class="row justify-content-center pt-5 gx-0">
+      <div class="col-1 px-2">
+        <img src="images/search-icon-01.png" alt="" class="bg-light rounded-5 px-3 py-3 h6">
+        <div class="text-light">Apartment</div>
+      </div>
+      <div class="col-1 px-2">
+        <img src="images/search-icon-02.png" alt="" class="bg-light rounded-5 px-3 py-3 h6">
+        <div class="text-light">Food & Life</div>
+      </div>
+      <div class="col-1 px-2">
+        <img src="images/search-icon-03.png" alt="" class="bg-light rounded-5 px-3 py-4 h6">
+        <div class="text-light px-3">Cars</div>
+      </div>
+      <div class="col-1 px-2">
+        <img src="images/search-icon-04.png" alt="" class="bg-light rounded-5 px-3 py-3 h6">
+        <div class="text-light px-1">Sopping</div>
+      </div>
+      <div class="col-1 px-2 pb-5">
+        <img src="images/search-icon-05.png" alt="" class="bg-light rounded-5 px-3 py-3 h6">
+        <div class="text-light pb-5 px-1">Traveling</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-light py-5">
+    <div class="container-xl text-light">
+      <div class="text-center text-light pt-5">
+        <div class="h1 text-dark">Popular Categories</div>
+        <div class="h5 text-secondary pt-2">Check Them Out</div>
+      </div>
+      <div class="bg-darkblue rounded-2">
+        <div class="container-xl mb-4">
+          <div class="row">
+            <div class="col-3 py-5 bg-darkblue px-2" style="border-top-left-radius: 7px;">
+              <img src="images/search-icon-01.png" alt=""> Apartments
+            </div>
+            <div class="row">
+              <div class="col-3 py-5 bg-secondary">
+                <img src="images/search-icon-02.png" alt=""> Apartments
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3 py-5 bg-secondary">
+                <img src="images/search-icon-03.png" alt=""> Apartments
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3 py-5 bg-secondary">
+                <img src="images/search-icon-04.png" alt=""> Apartments
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3 py-5 bg-secondary" style="border-bottom-left-radius: 7px;">
+                <img src="images/search-icon-05.png" alt=""> Apartments
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 align-self-center">
+            <div class="left-text">
+              <h4>One Of The Most Trending Stuffs Right Now!</h4>
+              <p>Plot Listing is a responsive Bootstrap 5 website template that included 4 different HTML pages. This
+                template is provided by TemplateMo website. You can apply this layout for your static or dynamic CMS
+                websites.</p>
+              <div class="bg-light px-5 py-2 btn bi-eye-fill text-secondary"><span class="text-dark"> Discover
+                  More</span></div>
+            </div>
+          </div>
+          <div class="col-xl-4 text-end">
+            <img src="images/tabs-image-01.jpg" alt="" class="w-100 rounded-3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-xl mb-5 d-none d-xl-block">
+    <div class="d-flex justify-content-center">
+      <div class="text-center py-5 col-6 ">
+        <div class="h1 text-black fw-bold pt-5 pb-2">
+          Recent Listing
+        </div>
+        <div class="h6 text-secondary pt-2 pb-2">
+          CHECK THEM OUT
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-12">
+      <div class="row gx-0">
+        <div class="col-5 px-5">
+          <img src="images/listing-01.jpg" alt="" class="rounded-2">
+        </div>
+        <div class="col-7 bg-light py-1 px-5">
+          <div class="h4 pt-5">
+            1. First Apartment Unit
+          </div>
+          <div class="h6 text-secondary pt-2 fw-normal">
+            by: Sale Agent
+            <div class="pt-4">
+              <img src="images/listing-icon-01.png" alt="" class="bg-secondary rounded-5 px-1 py-1"><span
+                class="text-dark px-1 fw-normal"> $450 - $950 / month with taxes</span>
+            </div>
+          </div>
+          <div class="text-secondary pt-2">
+            Details: <span class="text-dark">3660 sq ft</span>
+          </div>
+          <div class="pt-4">
+            <img src="images/listing-icon-02.png" alt=""><span class="text-dark px-1 fw-normal px-3">5 Bedrooms</span>
+          </div>
+          <div class="pt-4">
+            <img src="images/listing-icon-03.png" alt=""><span class="text-dark px-1 fw-normal px-3"> 3 Bedrooms</span>
+          </div>
+        </div>
+
+        <div class="col-5 px-5 pt-4">
+          <img src="images/listing-02.jpg" alt="" class="rounded-2">
+        </div>
+        <div class="col-7 bg-light py-1 px-5">
+          <div class="h4 pt-5">
+            1. First Apartment Unit
+          </div>
+          <div class="h6 text-secondary pt-2 fw-normal">
+            by: Sale Agent
+            <div class="pt-4">
+              <img src="images/listing-icon-01.png" alt="" class="bg-secondary rounded-5 px-1 py-1"><span
+                class="text-dark px-1 fw-normal"> $450 - $950 / month with taxes</span>
+            </div>
+          </div>
+          <div class="text-secondary pt-2">
+            Details: <span class="text-dark">3660 sq ft</span>
+          </div>
+          <div class="pt-4">
+            <img src="images/listing-icon-02.png" alt=""><span class="text-dark px-1 fw-normal px-3">5 Bedrooms</span>
+          </div>
+          <div class="pt-4">
+            <img src="images/listing-icon-03.png" alt=""><span class="text-dark px-1 fw-normal px-3"> 3 Bedrooms</span>
+          </div>
+        </div>
+
+        <div class="col-5 px-5 pt-4">
+          <img src="images/listing-03.jpg" alt="" class="rounded-2">
+        </div>
+        <div class="col-7 bg-light py-1 px-5">
+          <div class="h4 pt-5">
+            1. First Apartment Unit
+          </div>
+          <div class="h6 text-secondary pt-2 fw-normal">
+            by: Sale Agent
+            <div class="pt-4">
+              <img src="images/listing-icon-01.png" alt="" class="bg-secondary rounded-5 px-1 py-1"><span
+                class="text-dark px-1 fw-normal"> $450 - $950 / month with taxes</span>
+            </div>
+          </div>
+          <div class="text-secondary pt-2">
+            Details: <span class="text-dark">3660 sq ft</span>
+          </div>
+          <div class="pt-4">
+            <img src="images/listing-icon-02.png" alt=""><span class="text-dark px-1 fw-normal px-3">5 Bedrooms</span>
+          </div>
+          <div class="pt-4">
+            <img src="images/listing-icon-03.png" alt=""><span class="text-dark px-1 fw-normal px-3"> 3 Bedrooms</span>
+          </div>
+        </div>
+
+
+        <!-- <div class="col-5 text-end pe-3">
+          <div class="px-3">
+            <i class="bi-star"></i>
+            <i class="bi-star"></i>
+            <i class="bi-star"></i>
+            <i class="bi-star"></i>
+            <i class="bi-star"></i>
+          </div>
+        </div>
+        <div class="px-2 text-gray-500 mx-5">(24) Reviews</div> -->
+      </div>
+    </div>
+  </div>
+  <hr class="pb-5">
+  <div class="container-xl">
+    <div class="row">
+      <div class="col-xl-4">
+        <img src="images/black-logo.png" alt="">
+        <div class="h6 fw-normal pt-4">If you consider that Plot Listing template is useful for your website, please
+          support us a
+          little via PayPal.
+        </div>
+      </div>
+      <div class="col-xl-4 text-secondary h4">
+        Helpful Links
+      </div>
+      <!-- <div class="col-1 fw-normal">
+        <div>Categories</div>
+        <div>Reviews</div>
+        <div>Listing</div>
+        <div>Contact Us</div>
+      </div>
+      <div class="col-2 fw-normal">
+        <div>About Us</div>
+        <div>Awards</div>
+        <div>Useful Sites</div>
+        <div>Privacy Policy</div>
+      </div> -->
+    
+      <div class="col-xl-4 text-secondary h4">
+        Contact Us
+      </div>
+      <div class="fw-normal">27th Street of New Town, Digital Villa</div>
+      <div class="col-4">010-020-0340</div>
+      <div class="col-4">090-080-0760</div>
+    </div>
+  </div>
+  <footer class="mb-5 pt-5">
+    <div class="text-center">
+      Copyright &copy;2021 Plot Listing Co., Ltd. All Rights Reserved.
+      <br>
+			Design: TemplateMo
+    </div>
+</footer>
+</body>
+
+</html>
