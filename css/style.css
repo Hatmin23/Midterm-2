@@ -54,3 +54,7 @@ p i {
 .btn-light {
     border: none;
 }
+.btn-white {
+    border: none;
+    background-color: #ffff;
+}
